@@ -17,3 +17,10 @@ and compile assets correctly when coming from a `sprockets` v3 setup.
 
 The assets are included in the application based on the existing production examples.
 When running `assets:precompile` the correct output should be generated in the `public/assets` folder.
+
+## Findings
+
+* Stylesheets with double extension no longer work, e.g. `.css.scss` is no longer supported
+* Stylesheets written as `.scss` compile to `.css`
+* JavaScript files with `.erb` extensions work
+* CoffeeScript files with `.erb` extensions work

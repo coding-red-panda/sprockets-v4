@@ -1,4 +1,4 @@
 coffeeScriptExample = ->
-  alert("Triggered from example.coffee")
+  alert("Triggered from coffee.coffee")
 
 document.addEventListener 'DOMContentLoaded', coffeeScriptExample
